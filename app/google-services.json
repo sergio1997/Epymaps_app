@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "164360057387",
+    "firebase_url": "https://epymapsap.firebaseio.com",
+    "project_id": "epymapsap",
+    "storage_bucket": "epymapsap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164360057387:android:cf37f01eb3b25eae",
+        "android_client_info": {
+          "package_name": "app.com.epymaps_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164360057387-3caq23k84qck01tkhg773h1828v7gss5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.epymaps_app",
+            "certificate_hash": "e0fb86f761ea968a22523b292bf72cdf82f881ac"
+          }
+        },
+        {
+          "client_id": "164360057387-0sr9ikp2a2fsoil25vp47i5u6p1huloi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbd2RrVCD6F1NuBoWigfo4qnhQYAqNWQk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164360057387-0sr9ikp2a2fsoil25vp47i5u6p1huloi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

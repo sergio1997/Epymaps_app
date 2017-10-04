@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Epymaps_app</string>
+    <string name="not_log_in" />
+    <string name="log_outX">log_out</string>
+    <string name="log_out">log_out</string>
+    <string name="revoke">revoke</string>
+    <string name="not_close_session">sem sessão próxima</string>
+    <string name="not_revoke">nao_se_pode_revogar</string>
+</resources>

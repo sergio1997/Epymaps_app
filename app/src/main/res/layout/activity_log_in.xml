@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.epymaps_app.Login_Activity">
+
+    <EditText
+        android:id="@+id/edtEmail"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="251dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:textColor="@android:color/white"
+        android:textColorHint="#60FFFFFF"
+        android:textSize="7pt"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/edtSenha"
+        android:layout_alignStart="@+id/edtSenha">
+
+    </EditText>
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:hint="Senha"
+        android:textColorHint="#60FFFFFF"
+        android:textColor="@android:color/white"
+        android:inputType="textPassword"
+        android:textSize="7pt"
+        tools:layout_editor_absoluteY="221dp"
+        tools:layout_editor_absoluteX="46dp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignRight="@+id/btnRecupSenha"
+        android:layout_alignEnd="@+id/btnRecupSenha"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <Button
+        android:id="@+id/btnNovaConta"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:alpha="0.9"
+        android:hint="Criar Conta"
+        tools:layout_editor_absoluteY="445dp"
+        tools:layout_editor_absoluteX="46dp"
+        android:layout_alignTop="@+id/btnRecupSenha"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
+    <Button
+        android:id="@+id/btnRecupSenha"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:alpha="0.9"
+        android:hint="Esqueceu a Senha?"
+        tools:layout_editor_absoluteY="445dp"
+        tools:layout_editor_absoluteX="223dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="25dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="126dp"
+        android:layout_above="@+id/edtEmail"
+        android:layout_alignLeft="@+id/edtEmail"
+        android:layout_alignStart="@+id/edtEmail" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENHA"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="204dp"
+        android:layout_above="@+id/edtSenha"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="entrar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="274dp"
+        tools:text="entrar"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/signInButton"
+        android:layout_toLeftOf="@+id/btnRecupSenha"
+        android:layout_toStartOf="@+id/btnRecupSenha" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signInButton"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="372dp"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/btnNovaConta"
+        android:layout_alignRight="@+id/edtSenha"
+        android:layout_alignEnd="@+id/edtSenha"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+
+</RelativeLayout>
